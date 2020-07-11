@@ -17,4 +17,6 @@
     <string name="height_tip">Ex.: 1.87</string>
     <string name="resultTitle">O seu IMC é</string>
     <string name="resultTips">Dicas</string>
+    <string name="emptyWeight">O campo peso está vazio!</string>
+    <string name="emptyHeight">O campo altura está vazio!</string>
 </resources>

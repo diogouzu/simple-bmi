@@ -47,14 +47,12 @@ public class getDataActivity extends AppCompatActivity {
 
     private boolean validation(EditText weight, EditText height) {
 
-        String toastMsg = "O campo peso está vazio!";
-
         if (weight.getText().toString().isEmpty() || weight.getText().toString().equals("0")) {
-            Toast.makeText(getDataActivity.this, toastMsg, Toast.LENGTH_SHORT).show();
+            Toast.makeText(getDataActivity.this, R.string.emptyWeight, Toast.LENGTH_SHORT).show();
             return false;
         }
         if (height.getText().toString().isEmpty() || height.getText().toString().equals("0")) {
-            Toast.makeText(getDataActivity.this, toastMsg, Toast.LENGTH_SHORT).show();
+            Toast.makeText(getDataActivity.this, R.string.emptyHeight, Toast.LENGTH_SHORT).show();
             return false;
         }
         return true;
